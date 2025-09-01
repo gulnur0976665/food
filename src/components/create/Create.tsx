@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../redux/store";
 import { createProduct } from "../../redux/productSlice";
 

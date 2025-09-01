@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { HiArrowLongUp } from "react-icons/hi2";
 import scss from "./ScrollToTop.module.scss";
 

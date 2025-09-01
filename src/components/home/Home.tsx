@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import scss from "./Home.module.scss";
 import { useAppDispatch, useAppSelector } from "../../redux/store";
 import type { IProduct } from "../../types/Types";
