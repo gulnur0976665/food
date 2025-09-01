@@ -40,7 +40,15 @@ const SiteBar = () => {
           className={scss.logo}
         />
         <div className={scss.menu}>
-          <h6 className={scss.menuTitle}>Наше меню:</h6>
+          <h6
+            className={scss.menuTitle}
+            onClick={() => {
+              nav("/create");
+              dispatch(setActiveButton(""));
+            }}
+          >
+            Наше меню:
+          </h6>
 
           {menuLeft.map(({ name, img, path }) => (
             <div
