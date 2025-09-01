@@ -3,6 +3,25 @@
   @media (max-width: 760px) {
     padding: 0 20px;
   }
+  .IMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+    padding-top: 200px;
+    @media (max-width: 720px) {
+      padding: 0 20px;
+    }
+    @media (max-width: 490px) {
+      padding: 0;
+      padding-top: 100px;
+    }
+    .emptyImg {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+  }
   .content {
     display: flex;
     flex-direction: column;
