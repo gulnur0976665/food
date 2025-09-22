@@ -203,9 +203,6 @@ const productSlice = createSlice({
   name: "product",
   initialState,
   reducers: {
-    createProduct: (state, action) => {
-      state.product = action.payload;
-    },
     setActiveButton: (state, action: PayloadAction<string>) => {
       state.value = action.payload;
       localStorage.setItem("value", JSON.stringify(state.value));
@@ -217,6 +214,5 @@ const productSlice = createSlice({
   },
 });
 
-export const { createProduct, setActiveButton, setModal } =
-  productSlice.actions;
+export const { setActiveButton, setModal } = productSlice.actions;
 export default productSlice.reducer;
